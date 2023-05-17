@@ -24,17 +24,24 @@ header{
     max-width: 120px;
     height: auto;
 }
-
+/*nav bar*/
 .navmenu{
     display: flex;
-    align-items: center;
+    overflow: hidden;
+}
+
+.navmenu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 .navmenu a{
     color:#2c2c2c;
-    font-size: 16px;
+    font-size: 13px;
     text-transform: capitalize;
     padding: 10px 20px;
     font-weight: 400;
+    letter-spacing: 1px;
     transition: all .42s ease;
 }
 .navmenu a:hover{
@@ -310,15 +317,22 @@ header.sticky{
         position: absolute;
         top: 100%;
         right: -100%;
-        width: 100px;
+        width: 300px;
         height: 130vh;
         background:#fff;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        padding: 120px 30px;
+        align-items: right;
+        padding: 30px 30px;
         transition: all .42s;
-        text-align: center;
+        text-align: right;=
+    }
+    .navmenu li:first-child{
+        border-top: 1px solid #e0e0e0;
+    }
+    .navmenu li{
+        border-bottom: 1px solid #e0e0e0;
+        display: block;
     }
     .navmenu a{
         display: block;
@@ -347,4 +361,16 @@ header.sticky{
 }
 .content{
     display: block;
+}
+
+/*contact*/
+.content p{
+    display: block;
+    text-align: center;
+}
+.contact-us{
+    padding: 72px 48px;
+    margin: auto;
+    max-width: 800px;
+    margin-top: 85px;
 }
