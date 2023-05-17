@@ -317,15 +317,15 @@ header.sticky{
         position: absolute;
         top: 100%;
         right: -100%;
-        width: 300px;
+        width: 250px;
         height: 130vh;
         background:#fff;
         display: flex;
         flex-direction: column;
         align-items: right;
         padding: 30px 30px;
-        transition: all .42s;
-        text-align: right;=
+        transition: all 1s;
+        text-align: right;
     }
     .navmenu li:first-child{
         border-top: 1px solid #e0e0e0;
