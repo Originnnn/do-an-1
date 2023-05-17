@@ -172,7 +172,7 @@ header.sticky{
     transition: all .40s;
 }
 .row img{
-    width: 100%;
+    width: 75%;
     height: auto;
     transition: all .40s;
 }
@@ -370,8 +370,7 @@ header.sticky{
     padding: 72px 48px;
     margin: auto;
     max-width: 800px;
-    margin-top: 85px;
-    
+    margin-top: 85px;   
 }
 .our-mission h1{
     padding-bottom: 50px;
@@ -396,6 +395,36 @@ header.sticky{
 }
 
 /*product-section*/
-.list li{
-    margin-top: 20px;
+.shop{
+    padding: 72px 48px;
+    margin: auto;
+    max-width: 800px;
+    margin-top: 85px; 
+}
+.shop h1{
+    padding-bottom: 50px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 35px;
+}
+.shop ul{
+    display: block;
+    text-align: center;
+    list-style:;
+    padding: 0;
+    margin: 0;
+}
+.shop a{
+    display: grid;
+    grid-template-columns: 100px 100px ;
+}
+.all-product img{
+    width: 300px;
+    height: auto;
+    transition: all .5s;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.all-product img:hover{
+    transform: scale(1.1);
 }
